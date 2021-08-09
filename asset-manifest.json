@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tanventure/static/css/main.15ce4c62.chunk.css",
-    "main.js": "/tanventure/static/js/main.9f9e0b14.chunk.js",
-    "main.js.map": "/tanventure/static/js/main.9f9e0b14.chunk.js.map",
-    "runtime-main.js": "/tanventure/static/js/runtime-main.4e06a2cd.js",
-    "runtime-main.js.map": "/tanventure/static/js/runtime-main.4e06a2cd.js.map",
+    "main.css": "/tanventure/static/css/main.c50b3f28.chunk.css",
+    "main.js": "/tanventure/static/js/main.df085b92.chunk.js",
+    "main.js.map": "/tanventure/static/js/main.df085b92.chunk.js.map",
+    "runtime-main.js": "/tanventure/static/js/runtime-main.53d55554.js",
+    "runtime-main.js.map": "/tanventure/static/js/runtime-main.53d55554.js.map",
     "static/css/2.953c1907.chunk.css": "/tanventure/static/css/2.953c1907.chunk.css",
-    "static/js/2.b3f4beb2.chunk.js": "/tanventure/static/js/2.b3f4beb2.chunk.js",
-    "static/js/2.b3f4beb2.chunk.js.map": "/tanventure/static/js/2.b3f4beb2.chunk.js.map",
-    "static/js/3.33f7b1d0.chunk.js": "/tanventure/static/js/3.33f7b1d0.chunk.js",
-    "static/js/3.33f7b1d0.chunk.js.map": "/tanventure/static/js/3.33f7b1d0.chunk.js.map",
+    "static/js/2.00ba7908.chunk.js": "/tanventure/static/js/2.00ba7908.chunk.js",
+    "static/js/2.00ba7908.chunk.js.map": "/tanventure/static/js/2.00ba7908.chunk.js.map",
+    "static/js/3.ac3fa0da.chunk.js": "/tanventure/static/js/3.ac3fa0da.chunk.js",
+    "static/js/3.ac3fa0da.chunk.js.map": "/tanventure/static/js/3.ac3fa0da.chunk.js.map",
     "index.html": "/tanventure/index.html",
     "static/css/2.953c1907.chunk.css.map": "/tanventure/static/css/2.953c1907.chunk.css.map",
-    "static/css/main.15ce4c62.chunk.css.map": "/tanventure/static/css/main.15ce4c62.chunk.css.map",
-    "static/js/2.b3f4beb2.chunk.js.LICENSE.txt": "/tanventure/static/js/2.b3f4beb2.chunk.js.LICENSE.txt",
+    "static/css/main.c50b3f28.chunk.css.map": "/tanventure/static/css/main.c50b3f28.chunk.css.map",
+    "static/js/2.00ba7908.chunk.js.LICENSE.txt": "/tanventure/static/js/2.00ba7908.chunk.js.LICENSE.txt",
     "static/media/1.569b996f.jpg": "/tanventure/static/media/1.569b996f.jpg",
     "static/media/1.f457f2da.jpeg": "/tanventure/static/media/1.f457f2da.jpeg",
     "static/media/3.02f33467.jpeg": "/tanventure/static/media/3.02f33467.jpeg",
@@ -27,10 +27,10 @@
     "static/media/y.42064362.jpg": "/tanventure/static/media/y.42064362.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e06a2cd.js",
+    "static/js/runtime-main.53d55554.js",
     "static/css/2.953c1907.chunk.css",
-    "static/js/2.b3f4beb2.chunk.js",
-    "static/css/main.15ce4c62.chunk.css",
-    "static/js/main.9f9e0b14.chunk.js"
+    "static/js/2.00ba7908.chunk.js",
+    "static/css/main.c50b3f28.chunk.css",
+    "static/js/main.df085b92.chunk.js"
   ]
 }
