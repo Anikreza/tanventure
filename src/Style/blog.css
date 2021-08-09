@@ -1,0 +1,114 @@
+.blog{
+
+}
+.blog-top{
+  background-image: linear-gradient(40deg,#cee6f1,#e5f0e5,#fcfcfc, #c7e7c9 ) ;
+  background-size: contain;
+  height: 400vh;
+}
+
+.blog-image img{
+   max-width: 60%;
+}
+.blog-caption{
+  
+  float: left;
+  margin-left: -230px;
+  margin-top: 5%;
+  max-width: 350px;
+}
+
+.main{
+  border-style: double;
+  border-style:hidden;
+  position: absolute;
+  left:4%;
+  top:12%;
+  max-width: 60%;
+  font-size:80%;
+  text-align:left;
+  color: rgb(4, 22, 10);
+  font-family:monospace;
+  font-weight:bolder;
+
+}
+.blogdata{
+  display: flex;
+  padding-top: 100px;
+}
+.blog-header{
+  position: relative;
+  top: 80px;
+  left: 0%;
+}
+.blog-header p1{
+  color: rgb(53, 92, 53);
+ 
+}
+.blog-header h2{
+ 
+  color: rgb(11, 37, 58);
+}
+
+
+   .top{
+    padding-left: 10vw;
+    width: 100%;
+    padding-top: 20px;
+    background-image: linear-gradient(90deg, #ffffff, #ffffff);   
+   }
+   .nav-ul2{
+     display: flex;
+     margin-left: 55vw;
+     margin-top: -35px;
+     padding-bottom: 20px;
+   }
+   .nav-ul2> li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+.nav-ul2 a:hover{
+   color: rgb(60, 134, 57);
+}
+.nav-ul2 a{
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+   
+   .top input{
+    width: 110px;
+    background-color: #ffffff;
+    height: 40px;
+    border-style:inherit
+}
+
+.top button{
+  width: 30px;
+  height: 37px;
+  border-style: hidden;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.top button:hover{
+  color: rgb(54, 131, 54);
+}
+
+  
+
+  .RandomQoutes{
+    opacity: 0.8;
+    position: absolute;
+    text-shadow: 3px 3px 3px rgb(187, 233, 187);
+    top:220px;
+    right: 30px;
+    text-align:center;
+    font-style: oblique;
+    font-size: 115%;
+    color: rgb(5, 20, 3);
+    font-weight: lighter;
+  
+  }
+  
+
+

@@ -1,0 +1,184 @@
+.home{
+    background-image: url('../Img/5.jpg');
+    height: 100vh;
+    width: 99vw;
+    background-size: cover;
+    animation: bounceInLeft;
+    animation-duration: 1.5s;
+}
+
+.home-hr{
+    position: relative;
+    top:5vh;
+    width: 100vw;
+    margin-left: 0%;
+    background-color: white;
+}
+.home hr{
+    background: linear-gradient(to right, rgb(253, 253, 253),rgb(0, 0, 0), rgb(255, 255, 255));
+    height: 1px;
+    border-style: hidden;
+  }
+.home-center{
+    text-align: center;
+}
+
+.home-data{
+    float: left;
+    margin-left: 40%;
+    font-family:sans-serif;
+}
+.home-data p{
+    color: rgb(17, 36, 2);
+    font-family:Roboto;
+  
+}
+.carousel{
+    margin-top:1%;
+    margin-left: 1.5%;
+}
+.carousel img{
+   max-width: 95%;
+}
+
+
+
+
+.home-center{
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    animation: bounceInDown;
+    animation-duration: 1.5s;
+}
+
+
+.stylediv{
+    background: white;
+    color: black;
+    position: relative;
+    bottom: 1vh;
+    height: min-content;
+    text-align: center;
+    width: 100%;  
+}
+
+.stylediv::before{
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 80px;
+ top: 20px;
+ padding-bottom: 150px;
+ left: 0;
+ bottom: 0;
+ background: white;
+ transform: skewY(10deg);
+}
+.stylediv::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 80px;
+    top: 20px;
+    padding-bottom: 150px;
+    right: 0;
+    background: white;
+    transform: skewY(-10deg);
+   }
+
+   .infoanim{
+    animation: mymove 5s infinite;
+    -moz-animation: mymove 5s infinite;
+    -webkit-animation: mymove 5s infinite;
+    -o-animation: mymove 5s infinite;    
+    color: rgb(17, 36, 2);
+    font-family:'Trebuchet MS';
+    float: left;
+    margin-left: 40%;
+    margin-top: 12%;
+   }
+   .opacityanim{
+    animation: mymove1 3s infinite;
+    -moz-animation: mymove1 3s infinite;
+    -webkit-animation: mymove1 3s infinite;
+    -o-animation: mymove1 3s infinite;    
+    color: rgb(17, 36, 2);
+    font-family:'Trebuchet MS';
+   }
+.home-others{
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @keyframes mymove {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {padding-left: 340px ;}
+    to {padding-left:0 ;}
+  }
+   @-moz-keyframes mymove {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {padding-left: 340px ;}
+    to {padding-left:0 ;}
+  }
+   @-webkit-keyframes mymove {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {padding-left: 340px ;}
+    to {padding-left:0 ;}
+  }
+   @-o-keyframes mymove {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {padding-left: 340px ;}
+    to {padding-left:0 ;}
+  }
+
+
+
+  @keyframes mymove1 {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+  }
+  @-moz-keyframes mymove1 {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+  }
+   @-webkit-keyframes mymove1 {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+  }
+   @-o-keyframes mymove1 {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+  }
