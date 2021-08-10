@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tanventure/static/css/main.ec18cfe2.chunk.css",
-    "main.js": "/tanventure/static/js/main.604cee17.chunk.js",
-    "main.js.map": "/tanventure/static/js/main.604cee17.chunk.js.map",
+    "main.js": "/tanventure/static/js/main.fec0294d.chunk.js",
+    "main.js.map": "/tanventure/static/js/main.fec0294d.chunk.js.map",
     "runtime-main.js": "/tanventure/static/js/runtime-main.a438e396.js",
     "runtime-main.js.map": "/tanventure/static/js/runtime-main.a438e396.js.map",
     "static/css/2.a9562db8.chunk.css": "/tanventure/static/css/2.a9562db8.chunk.css",
@@ -60,6 +60,6 @@
     "static/css/2.a9562db8.chunk.css",
     "static/js/2.d7dc5af8.chunk.js",
     "static/css/main.ec18cfe2.chunk.css",
-    "static/js/main.604cee17.chunk.js"
+    "static/js/main.fec0294d.chunk.js"
   ]
 }
