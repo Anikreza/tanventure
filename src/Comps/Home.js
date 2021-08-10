@@ -2,13 +2,12 @@ import React from 'react'
 import '../Style/home.css'
 import DivCarousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import {Animated} from "react-animated-css";
 import { BrowserRouter as  Navlink, Link } from 'react-router-dom'; 
-import Nav from './Nav';
 import a from '../Img/3.jpeg'
 import c from '../Img/1.jpeg'
 import d from '../Img/5.jpg'
-
+import v from '../Img/nagaland/zain.mp4'
+import ReactPlayer from 'react-player'
 
 const Home = () => {
 
@@ -36,7 +35,7 @@ const Home = () => {
       
     return (
         <div className='home'>
-               <Nav/>
+            
             <div className='home-center'>
                  
                     <h2 className='infoanim'> LET ME TELL YOU A STORY</h2>
@@ -83,10 +82,15 @@ const Home = () => {
                         <div><Link to='/about'> <img src={d}/> </Link></div>
                         <div><Link to='/about'> <img src={c}/> </Link></div>
                         <div><Link to='/about'> <img src={d}/> </Link></div>
-                        </DivCarousel> 
+                        </DivCarousel>                   
             </div>
+            <hr/>
             <div className='home-others'>
-
+ 
+            <div className='video'>
+            <ReactPlayer url='https://www.youtube.com/watch?v=fkvHIUD3_HE'/>
+             <p>aaas asd  jd hwsf sdfj sdhg  fgjhds ghdhjg dfg fdg fdgjbv dfj hgfdbjv fdbvb dfbnv fdbnv sfhb sdhf dshbfv dsbv bnsdfvf bdsfbvn dsnv nbsdfv bnsdvf nbfwsdjfn bsdjknfbshijfdbsdkbf ijhsdg jfdgnf djhgjfhsde djg fdnjgvjlmngj knfgl jng ljmgfnd lvnfdg vnfsdlnkgv fdjkn vjkfnds gvnjfds gnfdsg njdfg </p>
+            </div>
             </div>
         </div>
     )

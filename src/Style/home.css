@@ -1,7 +1,7 @@
 .home{
     background-image: url('../Img/5.jpg');
     height: 100vh;
-    width: 99vw;
+    width: 100%;
     background-size: cover;
     animation: bounceInLeft;
     animation-duration: 1.5s;
@@ -10,7 +10,7 @@
 .home-hr{
     position: relative;
     top:5vh;
-    width: 100vw;
+    width: 100%;
     margin-left: 0%;
     background-color: white;
 }
@@ -45,7 +45,7 @@
 
 
 .home-center{
-    height: 80vh;
+    height: 90vh;
     position: relative;
     width: 100%;
     animation: bounceInDown;
@@ -72,7 +72,7 @@
  padding-bottom: 150px;
  left: 0;
  bottom: 0;
- background: white;
+ background: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255, 255));
  transform: skewY(10deg);
 }
 .stylediv::after{
@@ -83,7 +83,7 @@
     top: 20px;
     padding-bottom: 150px;
     right: 0;
-    background: white;
+    background: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255, 255));
     transform: skewY(-10deg);
    }
 
@@ -96,7 +96,7 @@
     font-family:'Trebuchet MS';
     float: left;
     margin-left: 40%;
-    margin-top: 12%;
+    margin-top: 15%;
    }
    .opacityanim{
     animation: mymove1 3s infinite;
@@ -107,19 +107,26 @@
     font-family:'Trebuchet MS';
    }
 .home-others{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
   height: 100vh;
+  background-image: linear-gradient(-40deg,#eeeeee,#e5f0e5, #ffffff ) ;
+
 }
 
-
-
-
-
-
-
-
-
-
-
+.video{
+  display: flex;
+  max-width: 80%;
+  margin-top: 10%;
+  padding-left: 10%;
+}
+.video p{
+  color: rgb(18, 36, 36);
+  padding-left: 20px;
+  padding-top: 90px;
+  max-width: 400px;
+}
 
 
 
