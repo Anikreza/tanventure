@@ -1,0 +1,88 @@
+
+.footer{
+    height: 55vh;
+    background-color: rgb(98, 156, 146);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    overflow-x: hidden;
+
+}
+.footer-top{
+    float: left;
+    margin-left: 5%;
+    margin-top: 11%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer-bottom{
+    display: flex;
+    float: left;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.flex-column-left{   
+    flex-direction: column;
+    width: 30vw;
+    padding-right: 20px;
+    float: left;
+    margin-left: -34%;
+    margin-top: 1%;
+}
+.flex-column-right{
+    flex-direction: column;
+    width: 30vw;
+    padding-left: 15px;
+    float: right;
+  
+    margin-top: 2%;
+}
+.avatar-footer{
+    position: relative;
+    margin-left: 46%;
+    margin-bottom: -20%;
+    z-index: 1;  
+}
+.footer-bottom hr{
+    background: linear-gradient(to right, rgb(234, 241, 238),rgb(204, 228, 220), rgb(226, 227, 236));
+    height: 1px;
+    border-style: hidden;
+  }
+  .flex-column-right hr{
+    background: linear-gradient(to left, rgb(238, 240, 239),rgb(214, 231, 210), rgb(225, 225, 226));
+    height: 1px;
+    border-style: hidden;
+  }
+  .fbicon:hover  {
+     color: #22345a !important;
+  }
+  .yticon:hover  {
+     color: #700202 !important;
+  }
+  .inicon:hover  {
+     color: #582251 !important;
+  }
+  .ttricon:hover  {
+     color: #075585 !important;
+  }
+  .pticon:hover  {
+     color: #974034 !important;
+  }
+
+  .footer-footer{
+      display: flex;
+      flex-direction: column;
+      float: left;
+      margin-left:46% ;
+      text-align: center;
+  }
+  .footer-footer h2{
+      color: rgb(6, 49, 30);
+      font-size: 18px;
+  }
+  .footer-footer p{
+      font-size: 10px;
+  }
+  .footer-footer a{
+      font-size: 12px;
+  }

@@ -14,7 +14,7 @@
 
 .articlebg{
 
-    background: linear-gradient(-110deg, rgb(239, 247, 230),rgb(123, 185, 154), rgb(219, 214, 171));
+    background: linear-gradient(180deg, rgb(181, 184, 179),rgb(123, 185, 154),rgb(156, 185, 123),rgb(255, 255, 255));
     background-size: cover;
     min-width: 100%;
     margin-top: 0%;
@@ -24,7 +24,8 @@
 { 
   max-width: 65%;
   margin-left: 17%;
-  text-align: justify;    
+  text-align: justify;  
+  padding-bottom: 150px;  
 }
 
 .article p2{
@@ -75,7 +76,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color:rgb(239, 247, 230);
+  background-color: inherit;
 
 }
 .text {
@@ -95,4 +96,7 @@
 }
 .container-a:hover .overlay {
   opacity: 1;
+}
+.container-a:hover .image {
+  opacity: 0;
 }

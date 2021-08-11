@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Link, NavLink, BrowserRouter } from "re
 import c from '../Img/1.jpeg'
 import d from '../Img/5.jpg'
 import {Avatar} from '@material-ui/core'
+import Footer from './Footer';
 
 const GalleryReact = () => {
   const responsive = {
@@ -180,6 +181,7 @@ const GalleryReact = () => {
   </div>
   
         </div>
+        <Footer/>
         </div>
         
     )

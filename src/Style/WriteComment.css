@@ -1,0 +1,72 @@
+.auto_height {
+    width: 80%;
+    white-space: pre-line;
+  }
+
+  .tweetboxInput{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 30px;
+}
+
+.tweetboxInput > .auto_height:focus{
+    outline:none;
+}
+
+.tweetboxInput>textarea{
+    resize: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family:sans-serif;
+    border:none;
+    font-size: 15px;
+    min-height: 100px;
+    background-color: rgb(245, 253, 245);
+    border-radius: 5%;
+}
+.send{
+   position: relative;
+    margin-left: 46%;
+    display: flex;
+    color: inherit;
+    padding-bottom: 150px;
+}
+.send> button{
+    margin-top: 5px;
+    height: 30px;
+    width: 70px;
+    border-radius: 135px;
+    color: inherit;
+    background-color: inherit;
+    opacity: .7;
+    border-style: ridge;
+    font-size: 12px;
+}
+.send>button:hover{
+    color: rgb(225, 238, 230);
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgb(89, 131, 99);
+}
+.login-button{
+    position: relative;
+    margin-left: 33%;
+    padding-bottom:-10px;
+    padding-top:150px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.loginbtn{
+    background-color: inherit;
+    border-style:solid;
+    padding: 10px;
+    border-radius: 100px;
+    opacity: .7;
+}
+.loginbtn:hover{
+    cursor: pointer;
+}
+.loginbtn a{
+   color: red;
+}

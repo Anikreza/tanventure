@@ -1,0 +1,47 @@
+.feed{
+    width: 90%;
+    min-height: fit-content;
+    margin-top: 10px;
+}
+.comment{
+    border-width: thin;
+    white-space: pre-line;
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 5%;
+    padding: 20px;
+    min-height: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+.comment p{
+    color: rgb(11, 12, 11);
+    font-size: 13px;
+}
+.comment p1{
+  position: relative;  
+  top: 10px;
+  padding-left: 7px;
+  color: rgb(15, 87, 53);
+  font-size: 17px;
+}
+.flex-comment{
+    display: flex;
+    width: 25%;
+}
+.flex-comment p2{
+    font-size: 9px;
+    padding-top: 17px;
+    margin-left: 5px;
+    font-weight: lighter;
+    color: rgb(0, 10, 10);
+}
+.comment-text{
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10%;
+}
+.comment hr{
+    background: linear-gradient(to right, rgb(227, 238, 232),rgb(245, 242, 242), rgb(255, 255, 255));
+    height: 1px;
+    border-style: hidden;
+  }

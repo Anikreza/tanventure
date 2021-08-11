@@ -1,6 +1,6 @@
 
 .blog-top{
-  background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(168, 233, 201), rgb(224, 222, 203));
+  background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(168, 233, 201), rgb(255, 255, 255));
   background-size: contain;
   min-height: 450vh;
   max-width: 100vw;

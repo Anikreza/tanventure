@@ -8,6 +8,7 @@ import c from '../Img/1.jpeg'
 import d from '../Img/5.jpg'
 import v from '../Img/nagaland/zain.mp4'
 import ReactPlayer from 'react-player'
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -91,6 +92,10 @@ const Home = () => {
             <ReactPlayer url='https://www.youtube.com/watch?v=fkvHIUD3_HE'/>
              <p>aaas asd  jd hwsf sdfj sdhg  fgjhds ghdhjg dfg fdg fdgjbv dfj hgfdbjv fdbvb dfbnv fdbnv sfhb sdhf dshbfv dsbv bnsdfvf bdsfbvn dsnv nbsdfv bnsdvf nbfwsdjfn bsdjknfbshijfdbsdkbf ijhsdg jfdgnf djhgjfhsde djg fdnjgvjlmngj knfgl jng ljmgfnd lvnfdg vnfsdlnkgv fdjkn vjkfnds gvnjfds gnfdsg njdfg </p>
             </div>
+            </div>
+
+            <div>
+              <Footer/>
             </div>
         </div>
     )
