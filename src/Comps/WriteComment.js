@@ -37,6 +37,7 @@ const WriteComment = () => {
           alert('Please Sign In First!')
           return
         }
+        if(comment!==''){
         db.collection(window.location.pathname).add({
             comment: comment,
             name: name,
@@ -45,8 +46,11 @@ const WriteComment = () => {
             time: firebase.firestore.FieldValue.serverTimestamp(),
           });
           setComment('');
-          alert(`I Recieved your Message,  ${name}, Thank you for getting in touch!`)
-    }
+        }
+        else{
+          alert('you have written nothing!')
+        }
+  }
 
     return (
         <div className='write'>
@@ -55,7 +59,7 @@ const WriteComment = () => {
                 <GoogleLogin
                  clientId="766075204483-lulb8u6h2g1v0h8kp0gsnirlntf170en.apps.googleusercontent.com"
                  render={renderProps => (
-                    <button className='loginbtn' onClick={renderProps.onClick} disabled={renderProps.disabled}><p style={{fontSize:'20px', color:'black'}}>Log In With Google</p></button>
+                    <button className='loginbtn' onClick={renderProps.onClick} disabled={renderProps.disabled}><p>Log In With Google</p></button>
                   )}
                  onSuccess={responseGoogle}
                  onFailure={responseGoogle}
@@ -70,7 +74,7 @@ const WriteComment = () => {
                        onChange ={e=>setComment(e.target.value)} 
                        placeholder="Write a comment..." 
                        minRows={3}
-                       maxRows={20}
+                       maxRows={11}
                     />                          
                 </div>
                   <div className='send'>
@@ -81,7 +85,7 @@ const WriteComment = () => {
                 </form>
 
 
-
+              <div className='commentFeed'>
                     {posts.map((post) => 
                             <CommentFeed
                                 key={post.data.name}
@@ -91,6 +95,7 @@ const WriteComment = () => {
                                 time={post.data.time}
                             />    
                     )}
+             </div>
         </div>
     )
 }

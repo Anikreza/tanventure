@@ -1,8 +1,8 @@
 
 .blog-top{
-  background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(168, 233, 201), rgb(255, 255, 255));
+  background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(122, 187, 154), rgb(255, 255, 255));
   background-size: contain;
-  min-height: 450vh;
+  min-height: 480vh;
   max-width: 100vw;
 }
 .blog-slider img{
@@ -173,6 +173,20 @@
     color: rgb(5, 20, 3);
     font-weight: lighter;
   
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    margin-left: 70%;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
   }
   
 

@@ -1,4 +1,4 @@
-.im{
+.nagaland-im{
    padding-top:50px;
    background-image: url("../Img//nagaland/1.jpg");
    height: 50vh;
@@ -7,6 +7,24 @@
    background-size: cover;
    background-blend-mode:darken;
 }
+.coastline-im{
+   padding-top:0px;
+   background-image: url("../Img//coastline/c1.jpg");
+   height: 65vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode:darken;
+}
+.hillroute-im{
+   padding-top:10px;
+   background-image: url("../Img//hillroute/b13.jpg");
+   height: 60vh;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:100%;
+ 
+}
 .nagaland{
   padding-top: 50px;
 }
@@ -14,7 +32,7 @@
 
 .articlebg{
 
-    background: linear-gradient(180deg, rgb(181, 184, 179),rgb(123, 185, 154),rgb(156, 185, 123),rgb(255, 255, 255));
+    background: linear-gradient(180deg, rgb(223, 223, 223),rgb(123, 185, 154),rgb(156, 185, 123),rgb(255, 255, 255));
     background-size: cover;
     min-width: 100%;
     margin-top: 0%;
@@ -26,19 +44,25 @@
   margin-left: 17%;
   text-align: justify;  
   padding-bottom: 150px;  
+ 
+}
+.article hr{
+  background: linear-gradient(to right, rgb(226, 223, 223),rgb(199, 192, 192), rgb(231, 229, 229));
+  height: 1px;
+  border-style: hidden;
 }
 
 .article p2{
   text-align: center;
   font-weight: bold;
-  margin-left: 10%;
+  margin-left: 0%;
 }
 
 
 .article p
-{   
+{    
     color: #0d110e;
-    font-family: fantasy;
+    font-family: inherit;
     font-size: 18px;
     text-align: justify;
 }

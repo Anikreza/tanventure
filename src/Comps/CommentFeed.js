@@ -1,10 +1,11 @@
 import React from 'react'
 import '../Style/CommentFeed.css'
 import {Avatar} from '@material-ui/core'
-
+import moment from 'moment'
 
 const CommentFeed = ({name, image, comment, time }) => {
     return (
+        <div className='feeda'>
         <div className='feed'>
             <div className='comment'>
                 <div className='flex-comment'>
@@ -14,10 +15,12 @@ const CommentFeed = ({name, image, comment, time }) => {
                  </div>
                  <hr/>
                   <div className='comment-text'>             
-                     <p>{comment}</p>
+                     <p>{comment} </p>
                   </div>
-
+                  <p2>{moment(time?.toDate()) .format('LL')}</p2>
             </div>
+          
+        </div>
         </div>
     )
 }

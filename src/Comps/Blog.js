@@ -6,12 +6,11 @@ import { BsSearch } from 'react-icons/bs';
 import DivCarousel from 'react-multi-carousel';
 import a from '../Img/cc.jpg'
 import avatar from '../Img/me.jpg'
-import { RiArrowDropDownLine } from 'react-icons/ri';
 import { BrowserRouter as Router, Route, Link, NavLink, BrowserRouter } from "react-router-dom";
 import c from '../Img/1.jpeg'
 import d from '../Img/5.jpg'
 import {Avatar} from '@material-ui/core'
-import Footer from './Footer';
+import Footer from './Footer'
 
 const GalleryReact = () => {
   const responsive = {
@@ -36,7 +35,7 @@ const GalleryReact = () => {
 
 
     const [search, setSearch]= useState('')
-    const [items, setItems] = useState(Data);
+    const [items, setItems] = useState(Data)
     
     const Search= (e) => {
                e.preventDefault();
@@ -144,7 +143,7 @@ const GalleryReact = () => {
 
                     <div className='blog-caption'>
                    
-                    <h3> {elem.caption} <br/><br/> {elem.caption2} 
+                    <h3>  {elem.caption} 
                     <Link className='link-readmore' to={elem.link} >...Contunue reading</Link> </h3>
                     </div>
                     </div>
@@ -153,11 +152,22 @@ const GalleryReact = () => {
                   })     
                }
               </div>
+
+              <div className="pagination">
+                  <a href="#">&laquo;</a>
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+              </div>
        </div>  
        </div>
+
+
        <div className="content">
-  
-  
   <div className="RandomQoutes">
     <p>#AdventureIsOutThere</p>
     <p>DidIEverTellYouTheDefinition</p>

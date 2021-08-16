@@ -1,5 +1,5 @@
 .nav{  
-  background: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255, 255));
     height: 50px;
     width: 100%;
     padding-top: 25px;
@@ -9,13 +9,15 @@
 .nav-black{
   position: fixed;
   width: 100vw;
-  background-color: rgb(98, 156, 146);
+  background-color: rgb(4, 27, 19);
   height: 25px;
-  padding-top: 7px;
+  padding-top: 5px;
+  padding-bottom: 3px;
   z-index: 1;
 }
 .nav-black> .nav-ul a{
   color: white;
+  font-size: 14px;
 }
 .nav-black> .dropdown> .dropbtn{
   color: white;
@@ -32,7 +34,7 @@
     padding-right: 30px;
 }
 .nav-ul a:hover{
-   color: rgb(60, 134, 57);
+   color: rgb(115, 221, 112);
 }
 .nav-ul a{
   text-decoration: none;
@@ -115,7 +117,7 @@
 
   .dropdown-content a:hover {
 
-    background-color: rgb(112, 168, 112);
+    background-color:  rgb(98, 156, 146);
     color: white;
     z-index: 100;
   }
@@ -124,6 +126,6 @@
     display: block;
   }
   .dropdown:hover .dropbtn {
-    background-color: white;
-    color: rgb(74, 138, 93);
+    background-color: inherit;
+    color: rgb(101, 192, 144);
   }

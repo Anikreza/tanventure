@@ -1,28 +1,31 @@
+
 .feed{
-    width: 90%;
+    width: 100%;
+    margin-left: 0%;
     min-height: fit-content;
     margin-top: 10px;
+    
 }
 .comment{
     border-width: thin;
     white-space: pre-line;
-    width: 70%;
-    margin-left: 20%;
+    margin-left: 0%;
     border-radius: 5%;
     padding: 20px;
-    min-height: fit-content;
-    background-color: rgb(255, 255, 255);
 }
 .comment p{
-    color: rgb(11, 12, 11);
+    color: rgb(3, 19, 3);
     font-size: 13px;
+    font-family: inherit;
+    max-width: 400px;
 }
 .comment p1{
   position: relative;  
   top: 10px;
   padding-left: 7px;
-  color: rgb(15, 87, 53);
-  font-size: 17px;
+  color: rgb(10, 49, 41);
+  font-size: 19px;
+  font-family: inherit;
 }
 .flex-comment{
     display: flex;
@@ -30,18 +33,29 @@
 }
 .flex-comment p2{
     font-size: 9px;
-    padding-top: 17px;
+    margin-top: 18px;
     margin-left: 5px;
+    min-width: 70px;
+    
     font-weight: lighter;
     color: rgb(0, 10, 10);
+    font-family: inherit;
 }
 .comment-text{
+    display: flex;
     width: fit-content;
     padding: 10px;
     margin-left: 10%;
 }
+.comment p2{
+    padding-top: 0px;
+    float: right;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
 .comment hr{
-    background: linear-gradient(to right, rgb(227, 238, 232),rgb(245, 242, 242), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(227, 238, 232),rgb(245, 242, 242), rgb(224, 208, 185));
     height: 1px;
     border-style: hidden;
   }

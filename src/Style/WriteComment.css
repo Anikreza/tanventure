@@ -5,7 +5,7 @@
 
   .tweetboxInput{
     display: flex;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-left: 150px;
     padding-right: 30px;
 }
@@ -21,27 +21,28 @@
     font-family:sans-serif;
     border:none;
     font-size: 15px;
-    min-height: 100px;
-    background-color: rgb(245, 253, 245);
-    border-radius: 5%;
+    min-height: 80px;
+    background-color: rgb(222, 226, 222);
+    border-radius: 7%;
 }
 .send{
-   position: relative;
+     position: relative;
     margin-left: 46%;
     display: flex;
     color: inherit;
-    padding-bottom: 150px;
+    padding-bottom: 30px;
 }
 .send> button{
     margin-top: 5px;
-    height: 30px;
-    width: 70px;
-    border-radius: 135px;
+    height: 25px;
+    width: 50px;
+    border-radius: 120%;
     color: inherit;
     background-color: inherit;
-    opacity: .7;
+    opacity: .8;
     border-style: ridge;
-    font-size: 12px;
+    font-size: 10px;
+    color:  rgb(22, 78, 35);
 }
 .send>button:hover{
     color: rgb(225, 238, 230);
@@ -52,21 +53,37 @@
 .login-button{
     position: relative;
     margin-left: 33%;
-    padding-bottom:-10px;
-    padding-top:150px;
+    padding-top:20px;
     padding-left:50px;
     padding-right:50px;
 }
 .loginbtn{
+    margin-left: 15px;
     background-color: inherit;
     border-style:solid;
-    padding: 10px;
-    border-radius: 100px;
-    opacity: .7;
+    padding: 7px;
+    border-radius: 50%;
+    opacity: .8;
+    font-family: inherit;
+}
+.loginbtn p{
+    font-size: 13px;
+    font-family: inherit;
+    color: #134b22;
 }
 .loginbtn:hover{
     cursor: pointer;
+    background-color: rgb(255, 255, 255);  
+    opacity:1;
 }
-.loginbtn a{
-   color: red;
+.loginbtn:hover p{
+    color: #a8323e;
+}
+.commentFeed{
+    max-height: 60vh;
+    width: 70%;
+    margin-left: 15%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(225, 226, 226) rgb(255, 255, 255);
 }

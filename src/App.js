@@ -3,7 +3,9 @@ import { BrowserRouter as Router,Switch, Route} from 'react-router-dom';
 import Home from './Comps/Home';
 import Nav from './Comps/Nav';
 import Blog from './Comps/Blog'
-import Nagaland from './Comps/Nagaland'
+import Nagaland from './Articles/Nagaland'
+import Coastline from './Articles/Coastline'
+import Hillroute from './Articles/Hillroute'
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
           <Route path='/Blog' component={Blog}/>
           <Route path='/gallery'/>
           <Route path='/contact'  />
-          <Route path='/nagaland' component={Nagaland} />
+          <Route path='/nagaland' component={Nagaland}/>
+          <Route path='/coastline' component={Coastline}/>
+          <Route path='/hillroute' component={Hillroute}/>
           <Route path='/works' />
        </Switch> 
 
