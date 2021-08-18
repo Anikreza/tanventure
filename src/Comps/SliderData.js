@@ -11,15 +11,12 @@ const SliderData = ({header, image, caption, link}) => {
               </div>
               
               <div className='slider-header'>
-               <h2>{header}</h2>
-             </div>
+                  <h2>{header}</h2>
+              </div>
              
-            <div className='slider-caption'>
-              <p>
-                  {caption}...
-                
-              </p>
-            </div>
+              <div className='slider-caption'>
+                  <p> {caption}...</p>
+              </div>
 
 
          </Link> 

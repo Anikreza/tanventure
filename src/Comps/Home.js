@@ -56,10 +56,10 @@ const Home = () => {
             <div className='stylediv'></div>
 
             <div className='home-hr'>
-                <hr/>
-                <br/><br/>
-                <h2 className='opacityanim' style={{textAlign:'center', color:'#05210d', fontWeight:'lighter'}}> Featured Articles</h2>
-                <br/>
+                
+                <br/><br/><br/><br/>
+                <h2 className='opacityanim' style={{textAlign:'center', color:'#05210d', fontWeight:'lighter', fontSize:'30px'}}> Featured Articles</h2>
+                <hr/><br/>
                 
             <DivCarousel
                         className='carousel'
@@ -92,10 +92,10 @@ const Home = () => {
                         </div>
                         </DivCarousel>                   
             </div>
-            <hr/>
+           
             <div className='home-others'>
-             
-            <hr/> <hr/>
+            
+          
             <div className='home-im'>
             <Link to='/book'></Link>           
             </div>

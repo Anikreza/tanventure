@@ -31,10 +31,10 @@ const Navbar = () => {
              </div> 
 
             <ul className='nav-ul'>
-                 <li> <NavLink path to='/about' activeStyle={{ fontWeight: "bold",color: nav?'#4af795': 'rgb(5, 66, 5)', opacity:'.6'}}>ABOUT TAN </NavLink> </li>
-                 <li> <NavLink  path to='/gallery' activeStyle={{ fontWeight: "bold",color: nav?'#4af795': 'rgb(5, 66, 5)', opacity:'.6'}}> GALLERY</NavLink> </li>
-                 <li> <NavLink path to='/tanventure/' activeStyle={{ fontWeight: "bold",color: nav?'#4af795': 'rgb(5, 66, 5)', opacity:'.6'}}> TANVENTURE</NavLink> </li>
-                 <li> <NavLink  path to='/blog' activeStyle={{ fontWeight: "bold",color: nav?'#4af795': 'rgb(5, 66, 5)', opacity:'.6'}}> BLOG  </NavLink> </li>
+                 <li> <NavLink path to='/about' activeStyle={{ fontWeight: "bold",color: nav?'#rgb(29, 99, 27)': 'rgb(29, 99, 27)', opacity:'.6'}}>ABOUT TAN </NavLink> </li>
+                 <li> <NavLink  path to='/gallery' activeStyle={{ fontWeight: "bold",color: nav?'rgb(29, 99, 27)': 'rgb(29, 99, 27)', opacity:'.6'}}> GALLERY</NavLink> </li>
+                 <li> <NavLink path to='/tanventure/' activeStyle={{ fontWeight: "bold",color: nav?'rgb(29, 99, 27)': 'rgb(29, 99, 27)', opacity:'.6'}}> TANVENTURE</NavLink> </li>
+                 <li> <NavLink  path to='/blog' activeStyle={{ fontWeight: "bold",color: nav?'rgb(29, 99, 27)': 'rgb(29, 99, 27)', opacity:'.6'}}> BLOG  </NavLink> </li>
            </ul>
         </div>
     )

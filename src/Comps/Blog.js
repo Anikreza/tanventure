@@ -1,8 +1,8 @@
 
 import React, {useState} from 'react'
-import Data from "../Comps/Images";
 import '../Style/blog.css'
 import { BsSearch } from 'react-icons/bs';
+import { IoLogoAngular } from 'react-icons/io';
 import DivCarousel from 'react-multi-carousel';
 import a from '../Img/cc.jpg'
 import avatar from '../Img/me.jpg'
@@ -11,8 +11,11 @@ import c from '../Img/1.jpeg'
 import d from '../Img/5.jpg'
 import {Avatar} from '@material-ui/core'
 import Footer from './Footer'
+import Blogfeed from './Blogfeed';
+import Pagination from './Pagination';
+import RandomQoute from './RandomQoute';
 
-const GalleryReact = () => {
+const GalleryReact = ({Data}) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -67,11 +70,10 @@ const GalleryReact = () => {
     <div className='blog-container'>
     <div className='blog-top'>
                <div className='avatar-blog'>
-              <Avatar src={avatar} style={{height:'150px', width:'150px'}}/>
-          </div>
-    <div>
-    <div className='blog-slider'>
-       
+                   <Avatar src={avatar} style={{height:'150px', width:'150px'}}/>
+               </div>
+   
+    <div className='blog-slider'>  
             <DivCarousel
                         className='carousel'
                         swipeable={false}
@@ -98,98 +100,39 @@ const GalleryReact = () => {
                         </DivCarousel>  
             </div>
 
-           <div className='main'>  
-          
-              <div className='top'>  
-                 
+           <div className='main'>   
+              <div className='top'>             
                 <form onSubmit={(e)=>e.preventDefault()}>
-                <h2 style={{float:'left', marginTop:'-18px', marginLeft:'40px',fontWeight:'lighter'}}>Tanventure</h2>
-              
+                <h2 style={{float:'left', marginTop:'-35px', marginLeft:'70px',fontWeight:'lighter', color:'rgb(9, 41, 23)'}}><IoLogoAngular size='30px'/></h2>
                 <button onClick={Search2}><BsSearch/></button>
-                <input onChange={Search} placeholder='Search By Country'/> 
-
+                <input onChange={Search} placeholder={Data[0].src}/> 
                 <button  onClick={() => setItems(Data)}>All</button>
                 <hr style={{width:'150%'}}/>
                 </form>
                 </div>  
+
                 <div className='top-ul'>
                       <li> <Link to='/blog'>Bikepacking</Link></li>
                       <li><a>Backpacking</a></li>
                       <li><a>Sports</a></li>
-                      <li><a>The Prime MInister</a></li>
+                      <li><Link to='/pm'>The Prime Minister</Link></li>
                       
-                </div>
-                <hr style={{width:'153%'}}/>  
-
-               <div  className='blog'>
-               {items.map((elem) =>
-                 {       
-                   return (
-                  
-                     <div>      
-                        <div className='blog-header'>
-                        <Link style={{ textDecoration:'none'}}to={elem.link}>
-                            <h2>{elem.header} </h2>
-                            <p1 >তানভীর রেজা অনিক</p1>
-                        </Link>
-                        </div>
-                        <div className='blogdata'>
-
-                       <div className='blog-image'>
-                         <Link to={elem.link}>    
-                          <img src={elem.image} /> 
-                         </Link> 
-                      </div>  
-
-                    <div className='blog-caption'>
-                   
-                    <h3>  {elem.caption} 
-                    <Link className='link-readmore' to={elem.link} >...Contunue reading</Link> </h3>
-                    </div>
-                    </div>
-                    </div>
-                   )                                  
-                  })     
-               }
-              </div>
-
-              <div className="pagination">
-                  <a href="#">&laquo;</a>
-                  <a href="#">1</a>
-                  <a href="#">2</a>
-                  <a href="#">3</a>
-                  <a href="#">4</a>
-                  <a href="#">5</a>
-                  <a href="#">6</a>
-                  <a href="#">&raquo;</a>
-              </div>
-       </div>  
-       </div>
-
-
-       <div className="content">
-  <div className="RandomQoutes">
-    <p>#AdventureIsOutThere</p>
-    <p>DidIEverTellYouTheDefinition</p>
-    <p>OfInsanity?</p>
-    <p>InsanityIsDoingTheExact</p>
-    <p>SameThingOverAndOverAndOver</p>
-    <p>AgainExpectingThingsToChange!</p>
-    <p>NeverGetOutOfStyle!</p>
-    <p>GoingToTheMounTainISGoingHome</p> 
-    <p>MountainsOrOceans?</p><p>MountainsANYDAY</p>
-    <p> ItsLikeYourSoulIsOnFire</p>
-    <p> #AdventureIsOutThere</p>
-    <p>DidIEverTellYouTheDefinition</p>
-    <p>OfInsanity?</p> 
-    <p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p>
-    <p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p>
-    <p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p><p>#AdventureIsOutThere</p>
-   
-  </div>
+               </div>
+               <hr style={{width:'153%'}}/>  
   
-  </div>
-  
+                {items.map(i=>(
+                         <Blogfeed
+                             id= {i.header}
+                             link={i.link}
+                             header={i.header}
+                             image={i.image}
+                             caption={i.caption}
+                         />
+                         ))} 
+
+                <Pagination/>
+            </div>
+          <RandomQoute/>
         </div>
         <Footer/>
         </div>
