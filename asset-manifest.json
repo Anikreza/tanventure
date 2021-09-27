@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tanventure/static/css/main.2e04a8cf.chunk.css",
+    "main.css": "/tanventure/static/css/main.9eba3455.chunk.css",
     "main.js": "/tanventure/static/js/main.e77f196c.chunk.js",
     "main.js.map": "/tanventure/static/js/main.e77f196c.chunk.js.map",
     "runtime-main.js": "/tanventure/static/js/runtime-main.0b76c6c3.js",
@@ -12,7 +12,7 @@
     "static/js/3.305f5e55.chunk.js.map": "/tanventure/static/js/3.305f5e55.chunk.js.map",
     "index.html": "/tanventure/index.html",
     "static/css/2.a9562db8.chunk.css.map": "/tanventure/static/css/2.a9562db8.chunk.css.map",
-    "static/css/main.2e04a8cf.chunk.css.map": "/tanventure/static/css/main.2e04a8cf.chunk.css.map",
+    "static/css/main.9eba3455.chunk.css.map": "/tanventure/static/css/main.9eba3455.chunk.css.map",
     "static/js/2.ba504777.chunk.js.LICENSE.txt": "/tanventure/static/js/2.ba504777.chunk.js.LICENSE.txt",
     "static/media/articles.css": "/tanventure/static/media/tg.169c86ee.jpg",
     "static/media/1.f457f2da.jpeg": "/tanventure/static/media/1.f457f2da.jpeg",
@@ -38,7 +38,7 @@
     "static/media/3k.d861ed70.jpg": "/tanventure/static/media/3k.d861ed70.jpg",
     "static/media/4.ed063a44.jpeg": "/tanventure/static/media/4.ed063a44.jpeg",
     "static/media/4a.0dcc6664.jpeg": "/tanventure/static/media/4a.0dcc6664.jpeg",
-    "static/media/home.css": "/tanventure/static/media/a1.8b10ad95.jpg",
+    "static/media/home.css": "/tanventure/static/media/ms1.cf6aac24.jpg",
     "static/media/50.f615a712.jpg": "/tanventure/static/media/50.f615a712.jpg",
     "static/media/51.23aa54aa.jpg": "/tanventure/static/media/51.23aa54aa.jpg",
     "static/media/56.5b6eccd5.jpg": "/tanventure/static/media/56.5b6eccd5.jpg",
@@ -53,6 +53,7 @@
     "static/media/9a.5ec0ca25.jpg": "/tanventure/static/media/9a.5ec0ca25.jpg",
     "static/media/a1.1d4c2dc6.jpg": "/tanventure/static/media/a1.1d4c2dc6.jpg",
     "static/media/a1.6ee3071f.jpg": "/tanventure/static/media/a1.6ee3071f.jpg",
+    "static/media/a1.8b10ad95.jpg": "/tanventure/static/media/a1.8b10ad95.jpg",
     "static/media/a1.d442214a.jpg": "/tanventure/static/media/a1.d442214a.jpg",
     "static/media/a10.50446c8d.jpg": "/tanventure/static/media/a10.50446c8d.jpg",
     "static/media/a10.58a83260.jpg": "/tanventure/static/media/a10.58a83260.jpg",
@@ -235,7 +236,7 @@
     "static/js/runtime-main.0b76c6c3.js",
     "static/css/2.a9562db8.chunk.css",
     "static/js/2.ba504777.chunk.js",
-    "static/css/main.2e04a8cf.chunk.css",
+    "static/css/main.9eba3455.chunk.css",
     "static/js/main.e77f196c.chunk.js"
   ]
 }
